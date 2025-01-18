@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-in-out
+  namespace: techChallenge
+data:
+  COGNITO_USER_POOL_ID: "your-cognito-user-pool-id"
+  COGNITO_CLIENT_ID: "your-cognito-client-id"
+  S3_BUCKET_NAME: "your-s3-bucket-name"
+  SQS_QUEUE_URL: "your-sqs-queue-url"
