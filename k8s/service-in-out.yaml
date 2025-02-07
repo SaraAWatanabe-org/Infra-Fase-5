@@ -1,13 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: lb-process-video
+  name: sv-in-out
   namespace: techChallenge
 spec: 
   selector:
-    app: process-video
+    app: in-out
   ports:
     - protocol: TCP
       port: 80
       targetPort: 8080
-  type: LoadBalancer
+  type: ClusterIP
+
