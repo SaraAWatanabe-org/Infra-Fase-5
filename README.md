@@ -1,4 +1,4 @@
-# Repositório para provisionamento de infraesturura para o projeto Fastfood
+# Repositório para provisionamento de infraesturura 
 
 ## Este repositório contém arquivos Terraform para provisionamento de infraestutura EKS na AWS.
 
@@ -16,7 +16,7 @@ Para executar localmente, siga as instruções abaixo:
 ### Clonando o Repositório e Criando infraestrutura
 
 1. Clone o repositório executando o comando:  
-`git clone https://github.com/SaraAWatanabe-org/infra-fastfood.git`
+`git clone https://github.com/SaraAWatanabe-org/infra-fase-5.git`
 
 2. Certifique-se que suas credenciais AWS esteja configuradas corretamente. [Mais Informações](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
